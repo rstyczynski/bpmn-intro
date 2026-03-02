@@ -1,6 +1,8 @@
 # Let's make pizza with BPMN
 
-<img src="image/logo.png" alt="Pizza BPMN Logo" width="75" />
+<p align="center">
+  <img src="image/logo.png" alt="Pizza BPMN Logo" width="300" />
+</p>
 
 For a long time, I was looking for a good pizza recipe. I started before the internet era, asking friends how to make this tasty food. Finally, after years, I opened an Italian cookbook and voila - I was able to make my first good pizza bread. Of course, the secrets are hidden in small details that are easy to overlook. After many years, I have the impression that I know those secrets, and I am happy to share one more discovered in my professional work: the importance of business process documentation with well-known standards.
 
