@@ -34,7 +34,15 @@ Start with these six elements:
 - **Gateways (diamonds):** split or join paths, such as choices (XOR). parallel work (AND), or one ore more possibilities (OR).
 - **Sequence flows (arrows):** show the order of execution.
 
-This is enough to understand most of the model quickly, even before learning advanced BPMN features.
+This is enough to understand most of the model quickly, even before learning advanced BPMN features. Even with new elements majority of the model are intuitive.
+
+## First step
+
+My advice is to focus on `pools` and `gateways`, which may be new concepts if you know only regular activity diagrams. Pools represent participants (for example, another team in the same company or an external partner/supplier). Gateways are more expressive than in a typical flowchart and are used to control branching and merging logic.
+
+- **Choice** - XOR Gateway: exactly one path is selected based on a condition; when joining, one incoming path is enough to continue.
+- **Parallel** - AND Gateway: all paths are started in parallel; when joining, all incoming paths must arrive before continuing.
+- **One or more** - OR Gateway: one or many paths can be selected based on conditions; when joining, it waits only for the paths that were actually activated.
 
 ## Why is it important to stick to BPMN?
 

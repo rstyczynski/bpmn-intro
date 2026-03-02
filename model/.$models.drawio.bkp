@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
   <diagram id="wfKbDX9SNy-Q2wbcskut" name="PIZZA BPMN">
-    <mxGraphModel dx="1845" dy="1888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2524" dy="2367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -561,9 +561,6 @@
             <mxGeometry height="80" width="120" x="354" y="-447" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="EK8mlyRErtuY6ZGtQCNf-1" edge="1" parent="1" source="lzt3H0RIbOB3bQk4J2_9-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lzt3H0RIbOB3bQk4J2_9-123">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <UserObject label="&lt;span style=&quot;font-size: 12px;&quot;&gt;measure 500g&lt;/span&gt;" tags="" id="lzt3H0RIbOB3bQk4J2_9-122">
           <mxCell parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" vertex="1">
             <mxGeometry height="80" width="120" x="80" y="-247" as="geometry" />
