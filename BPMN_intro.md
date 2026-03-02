@@ -15,10 +15,11 @@ There is nothing better than an example, so let's take a look at a pizza bread-m
 
 ## How to read the pizza process
 
-Start with these five elements:
+Start with these six elements:
 
-- **Lanes:** separate responsibilities (for example `Hungry guys`, `Kitchen owner`, `Chef`).
+- **Pools** separate organization units with own processes (here: `On the road`, `Home`); communicates with others always using events.
 - **Events (circles):** mark when something starts, waits, or ends.
+- **Lanes:** separate responsibilities (for example `Hungry guys`, `Kitchen owner`, `Chef`).
 - **Tasks (rounded rectangles):** show concrete actions, for example preparing pizza bread.
 - **Gateways (diamonds):** split or join paths, such as choices (XOR). parallel work (AND), or one ore more possibilities (OR) 
 - **Sequence flows (arrows):** show the order of execution.
