@@ -17,7 +17,13 @@ BPMN (Business Process Model and Notation) is a well-established standard for vi
 
 There is nothing better than an example, so let's take a look at a pizza bread-making process.
 
-## How to read the pizza process
+## Let's make pizza bread!
+
+<p align="center">
+  <img src="model/pizza_1.0.0.jpg" alt="Pizza bread making BPMN" width="600" />
+</p>
+
+## How to read the pizza bread process
 
 Start with these six elements:
 
