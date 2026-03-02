@@ -27,13 +27,23 @@ There is nothing better than an example, so let's take a look at a pizza bread-m
 
 Start with these six elements:
 
-- **Pools** separate organization units with own processes (here: `On the road`, `Home`); communicates with others always using events.
+- **Pools** separate organization units with own processes (here: `On the road`, `Home`); communicates with others always using messages.
 - **Events (circles):** mark when something starts, waits, or ends.
 - **Lanes:** separate responsibilities (for example `Hungry guys`, `Kitchen owner`, `Chef`).
 - **Tasks (rounded rectangles):** show concrete actions, for example preparing pizza bread.
 - **Gateways (diamonds):** split or join paths, such as choices (XOR). parallel work (AND), or one ore more possibilities (OR) 
 - **Sequence flows (arrows):** show the order of execution.
 
-This is enough to understand most of the model quickly, even before learning advanced BPMN features. For formal BPMN 2.0 element definitions and coverage, use the [CIB seven BPMN 2.0 Implementation Reference](https://docs.cibseven.org/manual/2.0/reference/bpmn20/).
+This is enough to understand most of the model quickly, even before learning advanced BPMN features. 
+
+## Why is it important to stick to BPMN?
+
+You may say: "It's easy. I don't need to learn anything new - a simple activity flow (flowchart) is enough." That is partly true, but it is like my pizza-making learning curve: without a good method, it can take years of trial and error to reach the right level.
+
+BPMN was built on more than 40 years of process-modeling lessons, including common pitfalls. There is no need to repeat those mistakes. It is easy to start with simple BPMN notation, and once you make the first step, more advanced use cases come naturally.
+
+It is like learning math: `2+2` comes before `x`, `x^2`, and the Pythagorean theorem, and all of them come before `sin(x)`.
+
+For formal BPMN 2.0 element definitions and coverage, use the [CIB seven BPMN 2.0 Implementation Reference](https://docs.cibseven.org/manual/2.0/reference/bpmn20/).
 
 Enjoy making pizza with BPMN!
