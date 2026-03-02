@@ -30,8 +30,8 @@ Start with these six elements:
 - **Pools** separate organization units with own processes (here: `On the road`, `Home`); communicates with others always using messages.
 - **Events (circles):** mark when something starts, waits, or ends.
 - **Lanes:** separate responsibilities (for example `Hungry guys`, `Kitchen owner`, `Chef`).
-- **Tasks (rounded rectangles):** show concrete actions, for example preparing pizza bread.
-- **Gateways (diamonds):** split or join paths, such as choices (XOR). parallel work (AND), or one ore more possibilities (OR) 
+- **Tasks (rounded rectangles):** show concrete actions, for example mixing ingredients.
+- **Gateways (diamonds):** split or join paths, such as choices (XOR). parallel work (AND), or one ore more possibilities (OR).
 - **Sequence flows (arrows):** show the order of execution.
 
 This is enough to understand most of the model quickly, even before learning advanced BPMN features.
