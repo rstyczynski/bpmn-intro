@@ -55,4 +55,5 @@ It is like learning math: `2+2` comes before `x`, `x^2`, and the Pythagorean the
 For formal BPMN 2.0 element definitions and coverage, use the [CIB seven BPMN 2.0 Implementation Reference](https://docs.cibseven.org/manual/2.0/reference/bpmn20/).
 
 Enjoy making pizza with BPMN!
+
 Enjoy making business processes with BPMN!
