@@ -44,6 +44,8 @@ My advice is to focus on `pools` and `gateways`, which may be new concepts if yo
 - **Parallel** - AND Gateway: all paths are started in parallel; when joining, all incoming paths must arrive before continuing.
 - **One or more** - OR Gateway: one or many paths can be selected based on conditions; when joining, it waits only for the paths that were actually activated.
 
+In practice, branching and merging gateways are usually used together, as shown in the pizza-bread process.
+
 ## Why is it important to stick to BPMN?
 
 You may say: "It's easy. I don't need to learn anything new - a simple activity flow (flowchart) is enough." That is partly true, but it is like my pizza-making learning curve: without a good method, it can take years of trial and error to reach the right level.
