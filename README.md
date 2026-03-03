@@ -25,7 +25,7 @@ Imagine a family returning from a winter trip; they are on the road and will be 
   <img src="model/pizza_1.0.0.jpg" alt="Pizza bread making BPMN" width="600" />
 </p>
 
-The model is build in draw.io, and is available is (here)[https://app.diagrams.net/?url=https://raw.githubusercontent.com/rstyczynski/bpmn-intro/refs/heads/main/model/models.drawio].
+The model is built in draw.io and is available [here](https://app.diagrams.net/?url=https://raw.githubusercontent.com/rstyczynski/bpmn-intro/refs/heads/main/model/models.drawio).
 
 ## How to read the pizza bread process
 
