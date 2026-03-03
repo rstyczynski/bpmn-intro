@@ -19,6 +19,8 @@ There is nothing better than an example, so let's take a look at a pizza bread-m
 
 ## Let's make pizza bread!
 
+Imagine a family returning from a winter trip; they are on the road and will be back home the next day. They love homemade pizza and ask their loved ones at home to prepare this welcome dinner. The presented process describes both the request and the pizza-bread preparation. It is not yet a fully ready pizza - just the bread. The final step is done at home, when everyone is together, to serve freshly baked pizza.
+
 <p align="center">
   <img src="model/pizza_1.0.0.jpg" alt="Pizza bread making BPMN" width="600" />
 </p>
@@ -27,14 +29,14 @@ There is nothing better than an example, so let's take a look at a pizza bread-m
 
 Start with these six elements:
 
-- **Pools** separate organization units with own processes (here: `On the road`, `Home`); communicates with others always using messages.
+- **Pools** separate organizational units with their own processes (here: `On the road`, `Home`) and communicate with each other using messages.
 - **Events (circles):** mark when something starts, waits, or ends.
 - **Lanes:** separate responsibilities (for example `Hungry guys`, `Kitchen owner`, `Chef`).
 - **Tasks (rounded rectangles):** show concrete actions, for example mixing ingredients.
-- **Gateways (diamonds):** split or join paths, such as choices (XOR). parallel work (AND), or one ore more possibilities (OR).
+- **Gateways (diamonds):** split or join paths, such as choices (XOR), parallel work (AND), or one-or-more possibilities (OR).
 - **Sequence flows (arrows):** show the order of execution.
 
-This is enough to understand most of the model quickly, even before learning advanced BPMN features. Even with new elements majority of the model are intuitive.
+This is enough to understand most of the model quickly, even before learning advanced BPMN features. Even with new elements, most of the model is intuitive.
 
 ## First step
 
@@ -54,8 +56,16 @@ BPMN builds on 40+ years of process-modeling experience, including common pitfal
 
 It is like learning math: `2+2` comes before `x`, `x^2`, and the Pythagorean theorem, and all of them come before `sin(x)`.
 
-For formal BPMN 2.0 element definitions and coverage, use the [CIB seven BPMN 2.0 Implementation Reference](https://docs.cibseven.org/manual/2.0/reference/bpmn20/).
+## Next steps
+
+As an exercise, extend the model to a full pizza-making process.
+
+## Tools
+
+There are many tools for BPMN modeling. Personally, I use one of the simplest: [draw.io](https://draw.io) - a universal business and IT diagramming tool that runs in the browser. Both browser and desktop versions are available.
+
+The formal owner of the standard is [OMG](https://www.omg.org/spec/BPMN); however, its documents can be difficult to read. For a learning path, I recommend starting with the [CIB seven BPMN 2.0 Implementation Reference](https://docs.cibseven.org/manual/2.0/reference/bpmn20/) and then using the OMG [BPMN 2.0 examples](https://www.omg.org/cgi-bin/doc?dtc/10-06-02.pdf).
 
 Enjoy making pizza with BPMN!
 
-Enjoy making business processes with BPMN!
+Enjoy modelling business processes with BPMN!
