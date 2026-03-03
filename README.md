@@ -40,7 +40,7 @@ Start with these six elements:
 
 This is enough to understand most of the model quickly, even before learning advanced BPMN features. Even with new elements, most of the model is intuitive.
 
-## First step
+## First steps
 
 My advice is to focus on `pools` and `gateways`, which may be new concepts if you know only regular activity diagrams. Pools represent participants (for example, another team in the same company or an external partner/supplier). Gateways are more expressive than in a typical flowchart and are used to control branching and merging logic.
 
@@ -50,6 +50,10 @@ My advice is to focus on `pools` and `gateways`, which may be new concepts if yo
 
 In practice, branching and merging gateways are usually used together, as shown in the pizza-bread process.
 
+## Next steps
+
+As an exercise, extend the model to a full pizza-making process.
+
 ## Why is it important to stick to BPMN?
 
 You may say: "It's easy. I don't need to learn anything new - a simple activity flow (flowchart) is enough." That is partly true, but it is like my pizza-making learning curve: without a good method, it can take years of trial and error to reach the right level.
@@ -57,10 +61,6 @@ You may say: "It's easy. I don't need to learn anything new - a simple activity 
 BPMN builds on 40+ years of process-modeling experience, including common pitfalls. There is no need to repeat those mistakes. It is easy to start with simple BPMN notation, and once you make the first step, more advanced use cases come naturally.
 
 It is like learning math: `2+2` comes before `x`, `x^2`, and the Pythagorean theorem, and all of them come before `sin(x)`.
-
-## Next steps
-
-As an exercise, extend the model to a full pizza-making process.
 
 ## Tools
 
