@@ -22,7 +22,7 @@ There is nothing better than an example, so let's take a look at a pizza bread-m
 Imagine a family returning from a winter trip; they are on the road and will be back home the next day. They love homemade pizza and ask their loved ones at home to prepare this welcome dinner. The presented process describes both the request and the pizza-bread preparation. It is not a fully ready pizza yet - just the bread. The final step is done at home, when everyone is together, to serve freshly baked pizza.
 
 <p align="center">
-  <img src="model/pizza_1.0.0.jpg" alt="Pizza bread making BPMN" width="600" />
+  <img src="model/pizza_2.1.0.svg" alt="Pizza bread making BPMN" width="600" />
 </p>
 
 The model is built in draw.io and is available [here](https://app.diagrams.net/?url=https://raw.githubusercontent.com/rstyczynski/bpmn-intro/refs/heads/main/model/models.drawio).
@@ -64,9 +64,9 @@ As an exercise, extend the model to a full pizza-making process.
 
 ## Tools
 
-There are many tools for BPMN modeling. Personally, I use one of the simplest: [draw.io](https://draw.io) - a universal business and IT diagramming tool that runs in the browser. Both browser and desktop versions are available. 
+There are many tools for BPMN modeling. Personally, I use one of the simplest: [draw.io](https://draw.io) - a universal business and IT diagramming tool that runs in the browser. Both browser and desktop versions are available.
 
-Draw.io comes with rich palettes of modeling elements, such as UML and BPMN. From a behavioral perspective, beyond regular nodes and connectors, notice `view/tags`, which make it possible to logically group elements and show or hide them. In my model, you will notice tags for `process`, `frame`, and `comments`. Using tags makes modeling easier. Draw.io supports export to many formats, including JPG, which is used in this project.
+Draw.io comes with rich palettes of modeling elements, such as UML and BPMN. From a behavioral perspective, beyond regular nodes and connectors, notice `view/tags`, which make it possible to logically group elements and show or hide them. In my model, you will notice tags for `process`, `frame`, and `comments`. Using tags makes modeling easier. Draw.io supports export to many formats, including SCG, JPG, which is used in this project.
 
 The formal owner of the standard is [OMG](https://www.omg.org/spec/BPMN); however, its documents can be difficult to read. For a learning path, I recommend starting with the [CIB seven BPMN 2.0 Implementation Reference](https://docs.cibseven.org/manual/2.0/reference/bpmn20/) and then using the OMG [BPMN 2.0 examples](https://www.omg.org/cgi-bin/doc?dtc/10-06-02.pdf).
 
